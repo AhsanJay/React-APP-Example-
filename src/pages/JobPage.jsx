@@ -31,18 +31,16 @@ const JobPage = () => {
           href="/jobs.html"
           className="text-indigo-500 hover:text-indigo-600 flex items-center"
         >
-          <i className="fas fa-arrow-left mr-2"></i> Back to Job Listings
+          <FaArrowLeft className='mr-2 ' /> Back to Job Listings
         </a>
       </div>
     </section>
 
     <section className="bg-indigo-50">
       <div className="container m-auto py-10 px-6">
-        <div className="grid grid-cols-1 md:grid-cols-70/30 w-full gap-6">
-          <main>
-            <div
-              className="bg-white p-6 rounded-lg shadow-md text-center md:text-left"
-            >
+        <div className="sm:grid grid-cols-1 md:grid-cols-70/30 w-full gap-6 md:flex">
+          <main className='md:w-3/4'>
+            <div className="bg-white p-6 rounded-lg shadow-md text-center md:text-left">
               <div className="text-gray-500 mb-4">Full-Time</div>
               <h1 className="text-3xl font-bold mb-4">
                 Senior React Developer
@@ -72,8 +70,7 @@ const JobPage = () => {
             </div>
           </main>
 
-          {/* <!-- Sidebar --> */}
-          <aside>
+          <aside className='md:w-1/4'>
             {/* <!-- Company Info --> */}
             <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-bold mb-6">Company Info</h3>
