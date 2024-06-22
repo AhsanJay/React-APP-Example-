@@ -1,3 +1,12 @@
+
+to run this project first 
+npm install // to install all dependencies 
+then 
+npm run dev // to run app 
+and 
+npm run server // to run server 
+this react app is running on json server 
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
